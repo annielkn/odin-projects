@@ -18,7 +18,7 @@ Book.prototype.info = function() {
 
 function addBookToLibrary(title, author, pages, read) {
   // take params, create a book then store it in the array
-  const newBook = new Book(title, author, pages, read, crypto.randomUUID());
+  const newBook = new Book(titorle, author, pages, read, crypto.randomUUID());
   myLibrary.push(newBook);
   return newBook;
 }
